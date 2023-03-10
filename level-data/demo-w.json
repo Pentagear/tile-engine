@@ -1,0 +1,42 @@
+{
+	"asset": {
+		"background": "https://i.postimg.cc/nhJXfNcM/retro-mountains.png",
+		"environment": "environment.png",
+		"obstacle": "obstacle.png",
+		"bot": "bot.png"
+	},
+	"map": {
+		"size": [ 7, 16 ],
+		"environment": [
+			 0, 0, 0, 0, 0, 0, 0,
+			 0, 0, 1, 1, 1, 0, 0,
+			 0, 1, 2, 2, 2, 1, 0,
+			 0, 1, 2, 2, 2, 2, 2,
+			 0, 1, 2, 2, 2, 1, 0,
+			 0, 0, 1, 1, 1, 0, 0,
+			 0, 0, 0, 0, 0, 0, 0
+		],
+		"obstacle": [
+			 0, 0, 0, 0, 0, 0, 0,
+			 0, 0, 1, 1, 1, 0, 0,
+			 0, 1,-1,-1,-1, 1, 0,
+			 0, 1,-1,-1,-1,-1,-1,
+			 0, 1,-1,-1,-1, 1, 0,
+			 0, 0, 1, 1, 1, 0, 0,
+			 0, 0, 0, 0, 0, 0, 0
+		],
+		"bot": [],
+		"player": {
+			"asset": "player.png",
+			"height": 16,
+			"width": 16,
+			"spawn": [
+				[ "default", 24 ],
+				[ "demo", 26 ]
+			]
+		}
+	},
+	"exit": [
+		[ 27, "demo" ]
+	]
+}
